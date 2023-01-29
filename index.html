@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/21ae6233db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+
+
+  <body>
+
+     <!-- BARRA DE NAVEGACIÓN-->
+     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <h1><a class="navbar-brand" href="/index.html"> <span class="material-symbols-outlined">
+          person_search
+          </span>  Curriculum Vitae  </a></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#datos_personales">Datos personales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#estudios">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#exp_laboral">Experiencia laboral</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CONTENEDOR 1/ DATOS PERSONALES-->
+
+    <div class="container-md" id="datos_personales">
+      <h2 id="titular1"> <span class="material-symbols-outlined">
+        contact_page
+        </span> Datos personales</h2>
+      <div class="row" id="row_foto">
+
+        <div class="col-sm-12 col-md-12 col-lg-3" id="col_de_foto">
+          <img id="foto_perfil" src=" " alt="Foto de perfil que acompaña el CV.">
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-9">
+          <table id="tabla_datos">
+            <tbody>
+              <tr>
+                <td> <strong> <u>Nombres:</u> </strong> <span id="nombres"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Apellidos:</u> </strong> <span id="apellidos"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u><abbr title="Tipo y número de identificación">Documento:</abbr></u> </strong> <span id="dni"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Dirección:</u> </strong> <span id="direccion"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Edad:</u> </strong> <span id="edad"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Fecha de nacimiento:</u> </strong> <span id="fecha_nacimiento"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Nacionalidad:</u> </strong> <span id="nacionalidad"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Hijos:</u> </strong> <span id="hijos"> </span> </td>
+              </tr>
+              <tr>
+                <td><strong> <u>Estado civil:</u> </strong> <span id="estado_civil"> </span> </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+       
+      </div>
+    </div>
+
+    
+    <!-- CONTENEDOR 2/ ESTUDIOS-->
+
+    <div class="container-fluid my-2" id="estudios">
+      <h2 id="titular2"> <span class="material-symbols-outlined">
+        school
+        </span> Estudios</h2>
+      <div class="accordion accordion-flush" id="accordionEstudios">
+
+        <!--  ED. PRIMARIA  -->
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="esc_primaria">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Educación primaria
+            </button>
+          </h3>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="esc_primaria" data-bs-parent="#accordionEstudios">
+            <div class="accordion-body">
+              <strong>Educación primaria:</strong> <span class="cursiva"> Completa.</span>  <br>
+              <strong>Escuela:</strong> <span id="primar" class="cursiva"> Alejandro Mathus. </span><br>
+            </div>
+          </div>
+        </div>
+
+        <!--  ED. SECUNDARIA  -->
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="esc_secundaria">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Educación secundaria
+            </button>
+          </h3>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="esc_secundaria" data-bs-parent="#accordionEstudios">
+            <div class="accordion-body">
+              <strong>Educación secundaria:</strong> <span class="cursiva"> Completa.</span> <br>
+              <strong>Escuela:</strong><span id="secund" class="cursiva"> Miguel Pouget.</span> <br>
+              <strong>Título:</strong><span class="cursiva"> Bachiller.</span> <br>            
+            </div>
+          </div>
+        </div>
+
+        <!--  OTROS CURSOS  -->
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="otros_estudios">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Otros cursos
+            </button>
+          </h3>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="otros_estudios" data-bs-parent="#accordionEstudios">
+            <div class="accordion-body">
+              <strong>Curso:</strong> "Ticmas Academy - Primeros pasos del desarrollo frontend":<span class="cursiva"> En curso.</span> <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CONTENEDOR 3/ EXP. LABORAL-->
+
+    <div class="container-fluid my-2" id="exp_laboral">
+      <h2 id="titular3"> <span class="material-symbols-outlined">
+        work_history
+        </span> Experiencia laboral</h2>
+      <table class="table table-sm table-bordered" id="tabla_experiencia">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Empresa</th>
+            <th scope="col">Puesto</th>
+            <th scope="col">Período</th>
+            <th scope="col">Referencia</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Millán S.A.</td>
+            <td>Control de stock</td>
+            <td>2013 - actualidad</td>
+            <td><a href="mailto:ariel.aguero@millan.com.ar">Ariel Agüero</a></td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td scope="row">Actividades:</td>
+            <td class="actividades_tabla" colspan="5">Control de stock en supermercados, tiendas y depósitos; control y recepción de proveedores, control de pedidos, auditorías, balances, supervisión.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- CONTENEDOR 4/ CONTACTO-->
+
+    <div class="container-fluid my-2" id="contacto">
+      <h2 id="titular4"> <span class="material-symbols-outlined">
+        connect_without_contact
+        </span> Contacto</h2>
+
+        <p>Contactame directamente:</p>
+
+        <a class="btn btn-success btn-lg" id="celular" href="" role="button"><i class="bi bi-whatsapp"></i> Llamar/Escribir </a>
+        <a class="btn btn-info btn-lg" id="email" href="" role="button"><i class="bi bi-envelope-at-fill"></i> Email </a>
+
+      <p>O llená el siguiente formulario y te contacto a la brevedad.</p>
+      <form>
+
+      <div class="mb-3">
+        <label for="contacto_nombre" class="form-label"> <span class="material-symbols-outlined">
+          contacts
+          </span> Nombre y apellido:</label>
+        <input type="text" class="form-control" id="contacto_nombre" placeholder="Ingrese su nombre completo aquí" required>
+      </div>
+   
+      <div class="mb-3">
+        <label for="telefono" class="form-label"> <span class="material-symbols-outlined">
+          call
+          </span> Número de teléfono:</label>
+        <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su número aquí (Opcional)">
+      </div>
+
+      <div class="mb-3">
+        <label for="casilla_de_email" class="form-label"><span class="material-symbols-outlined">
+          mail
+          </span> Email:</label>
+        <input type="email" class="form-control" id="casilla_de_email" placeholder="su_email@ejemplo.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="area_mensaje" class="form-label"> <span class="material-symbols-outlined">
+          chat
+          </span> Deje su mensaje:</label>
+        <textarea class="form-control" id="area_mensaje" rows="2" required></textarea>
+      </div>
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+
+    </form>
+
+    </div>
+
+    <script src="codigo.js"></script>
+
+  </body>
+
+  <!-- FOOTER -->
+<footer class="bg-primary text-center text-white">
+  <div class="container p-4">
+
+    <section class="mb-4">
+
+      <p>Diseñado por Daniel San Martín, 2023.</p>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/daniel_sm12" role="button" target="_blank">
+        <i class="fab fa-twitter"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/danielesanmartin/" role="button" target="_blank">
+        <i class="fab fa-linkedin-in"></i></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/danielsm12" role="button" target="_blank">
+        <i class="fab fa-github"></i></a>
+    </section>
+
+  </div>
+</html>

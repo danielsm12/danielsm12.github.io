@@ -1,0 +1,66 @@
+{
+    "results": [
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Jorge",
+    "last": "Centeno"
+    },
+    "location": {
+    "street": {
+    "number": 8502,
+    "name": "Circunvalación Turquía"
+    },
+    "city": "El Grullo",
+    "state": "Zacatecas",
+    "country": "Mexico",
+    "postcode": 31137,
+    "coordinates": {
+    "latitude": "22.8187",
+    "longitude": "-174.7915"
+    },
+    "timezone": {
+    "offset": "+4:30",
+    "description": "Kabul"
+    }
+    },
+    "email": "jorge.centeno@example.com",
+    "login": {
+    "uuid": "83ad64f3-50c7-44ef-b0a7-d7df6726149f",
+    "username": "redladybug835",
+    "password": "1201",
+    "salt": "wcUCp608",
+    "md5": "cea02028e9f830a9f65e43aa29a9a603",
+    "sha1": "012d9e3ccd79521b16990e0f5443656a5aef5dc5",
+    "sha256": "cdd12f489e542d7a5111f2cc1ac078ba374d24ec4f5327f5674f4cb94555ddde"
+    },
+    "dob": {
+    "date": "1970-05-09T19:40:54.632Z",
+    "age": 52
+    },
+    "registered": {
+    "date": "2019-02-20T00:45:35.241Z",
+    "age": 3
+    },
+    "phone": "(644) 140 3596",
+    "cell": "(655) 675 6071",
+    "id": {
+    "name": "NSS",
+    "value": "09 62 19 3198 3"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/men/98.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/98.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
+    },
+    "nat": "MX"
+    }
+    ],
+    "info": {
+    "seed": "24de4cf1c40f90c7",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+    }

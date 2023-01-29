@@ -1,0 +1,70 @@
+
+body{
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2{
+    font-family: fantasy;
+    text-align: center;
+    border-top: 1%;
+    margin-bottom: 5px;
+    margin-top: 5%;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+table{
+    text-align: center;
+    
+}
+
+.actividades_tabla{
+    text-align: left;
+}
+
+#tabla_datos{
+    text-align: left;
+}
+
+::placeholder{
+    text-decoration: darkolivegreen;
+    font-style: italic;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+#foto_perfil{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+    height: 128px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:black;
+}
+
+#col_de_foto{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#row_foto{
+    width: auto;
+}
+
+#celular{
+    margin-bottom: 2%;
+}
+
+#email{
+    margin-bottom: 2%;
+}
